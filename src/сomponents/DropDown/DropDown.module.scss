@@ -1,0 +1,26 @@
+.text {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.button {
+  background-color: antiquewhite;
+  border-radius: 5px;
+  border: 2px solid #ae7be3;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.option {
+  display: inline-block;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  &:focus {
+    outline: none;
+  }
+}
