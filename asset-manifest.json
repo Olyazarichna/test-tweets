@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/test-tweets/static/css/main.8ffc5f12.css",
+    "main.js": "/test-tweets/static/js/main.1338affd.js",
+    "static/media/notFound.jpg": "/test-tweets/static/media/notFound.f6bbde38eabafffd1a20.jpg",
+    "static/media/cycle.jpg": "/test-tweets/static/media/cycle.cfdb3e11b69fc3e19cf8.jpg",
+    "static/media/news.jpg": "/test-tweets/static/media/news.c784222538a14403d94a.jpg",
+    "static/media/bag.jpg": "/test-tweets/static/media/bag.1ccf55f8ea212581c298.jpg",
+    "static/media/rapp.jpg": "/test-tweets/static/media/rapp.30769f2a766e98672fd0.jpg",
+    "static/media/letters.jpg": "/test-tweets/static/media/letters.eb7dded950cf62b491a5.jpg",
+    "static/media/tree.jpg": "/test-tweets/static/media/tree.733d9a014190c865353f.jpg",
+    "static/media/film.jpg": "/test-tweets/static/media/film.837eb77e3f8b5cb354f9.jpg",
+    "static/media/twitterIcon.png": "/test-tweets/static/media/twitterIcon.28c1357885c29124fa87.png",
+    "static/media/picture.png": "/test-tweets/static/media/picture.010ab3c33bc13f300d33.png",
+    "index.html": "/test-tweets/index.html",
+    "main.8ffc5f12.css.map": "/test-tweets/static/css/main.8ffc5f12.css.map",
+    "main.1338affd.js.map": "/test-tweets/static/js/main.1338affd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ffc5f12.css",
+    "static/js/main.1338affd.js"
+  ]
+}
