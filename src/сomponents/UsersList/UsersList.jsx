@@ -18,7 +18,7 @@ export const UsersList = () => {
   useEffect(() => {
     const fetchData = async () => {
       const data = await getUsers(page);
-      setUsers(users.concat(data));
+      setUsers((prevState)=>[...prevState, ...data]);
     };
     fetchData();
   }, [page]);
