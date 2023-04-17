@@ -59,15 +59,12 @@ export const UserCard = (user) => {
           {followers?.toLocaleString("en-US")} Followers
         </p>
       </div>
-      {!isFollowing ? (
-        <button className={style.btn} onClick={handleFollowClick}>
-          Follow
-        </button>
-      ) : (
-        <button className={style.activeBtn} onClick={handleFollowClick}>
-          Following
-        </button>
-      )}
+      <button
+        className={!isFollowing ? style.btn : style.activeBtn}
+        onClick={handleFollowClick}
+      >
+        {isFollowing ? "Follow" : "Following"}
+      </button>
     </div>
   );
 };

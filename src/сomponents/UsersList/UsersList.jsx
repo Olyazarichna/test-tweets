@@ -48,7 +48,7 @@ export const UsersList = () => {
               : following.includes(user.id.toString())
           )
           .map((user) => (
-            <li key={user.id} className={style.listItem}>
+            <li key={user.id}>
               <UserCard
                 id={user.id}
                 avatar={user.avatar}
