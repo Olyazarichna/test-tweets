@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/test-tweets/static/css/main.8ffc5f12.css",
-    "main.js": "/test-tweets/static/js/main.e76b9c54.js",
+    "main.css": "/test-tweets/static/css/main.227de56f.css",
+    "main.js": "/test-tweets/static/js/main.db91dcaa.js",
     "static/media/notFound.jpg": "/test-tweets/static/media/notFound.f6bbde38eabafffd1a20.jpg",
     "static/media/cycle.jpg": "/test-tweets/static/media/cycle.cfdb3e11b69fc3e19cf8.jpg",
     "static/media/news.jpg": "/test-tweets/static/media/news.c784222538a14403d94a.jpg",
@@ -13,11 +13,11 @@
     "static/media/twitterIcon.png": "/test-tweets/static/media/twitterIcon.28c1357885c29124fa87.png",
     "static/media/picture.png": "/test-tweets/static/media/picture.010ab3c33bc13f300d33.png",
     "index.html": "/test-tweets/index.html",
-    "main.8ffc5f12.css.map": "/test-tweets/static/css/main.8ffc5f12.css.map",
-    "main.e76b9c54.js.map": "/test-tweets/static/js/main.e76b9c54.js.map"
+    "main.227de56f.css.map": "/test-tweets/static/css/main.227de56f.css.map",
+    "main.db91dcaa.js.map": "/test-tweets/static/js/main.db91dcaa.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ffc5f12.css",
-    "static/js/main.e76b9c54.js"
+    "static/css/main.227de56f.css",
+    "static/js/main.db91dcaa.js"
   ]
 }
