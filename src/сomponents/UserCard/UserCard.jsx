@@ -50,7 +50,7 @@ export const UserCard = (user) => {
       <img className={style.logo} src={logo} alt="logo" />
       <img className={style.img} src={picture} alt="backgroundIcons" />
       <div>
-        <img className={style.avatar} src={user.avatar} alt="avatar" />
+        <img className={style.avatar} src={user.avatar} alt="avatar" width="80" height="80"/>
         <div className={style.line}></div>
       </div>
       <div className={style.textWrapper}>
