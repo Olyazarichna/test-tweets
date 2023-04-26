@@ -8,6 +8,22 @@
   text-align: center;
   padding-bottom: 20px;
 }
+.goBackBtn {
+  margin-top: 10px;
+  text-align: left;
+  padding: 10px 20px;
+  background-color: #ebd8ff;
+  border-color: transparent;
+  border-radius: 4px;
+  font-size: 26px;
+  font-weight: 600;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: #c49eed;
+    color: #fff;
+  }
+}
 .list {
   padding: 20px;
   display: grid;

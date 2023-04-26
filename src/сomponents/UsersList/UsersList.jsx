@@ -4,12 +4,14 @@ import { UserCard } from "../UserCard/UserCard";
 import style from "../UsersList/UsersList.module.scss";
 import { Header } from "../Header/Header";
 import { DropDown } from "../DropDown/DropDown";
+import { useNavigate } from "react-router-dom";
 
 export const UsersList = () => {
   const [page, setPage] = useState(1);
   const [users, setUsers] = useState([]);
   const [following, setFollowing] = useState([]);
   const [value, setValue] = useState("showAll");
+  const navigate = useNavigate();
 
   const handleSelected = (value) => {
     setValue(value);
@@ -37,6 +39,8 @@ export const UsersList = () => {
   return (
     <div className={style.container}>
       <Header />
+      <button className={style.goBackBtn} type="button" onClick={()=>navigate('/')  }>Home</button>
+      
       <DropDown handleSelected={handleSelected} />
       <ul className={style.list}>
         {users
